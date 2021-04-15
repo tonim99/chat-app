@@ -1,4 +1,5 @@
 import firebase from 'firebase/app'
+
 const config = {
     apiKey: "AIzaSyAbo9noeEIU2jIJi74ivM9pMmeA15_LmWI",
     authDomain: "chat-web-app-3e22a.firebaseapp.com",
@@ -9,4 +10,3 @@ const config = {
   };
 
   const app = firebase.initializeApp(config)
-  
